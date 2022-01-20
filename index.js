@@ -28,7 +28,7 @@ for (let i = 0; i < fs.readdirSync(__dirname + "/modules").length; i++) {
 ///////
 
 client.on("ready", () => {
- client.user.setActivity(`!help`, { type: "LISTENING" });
+ client.user.setActivity(`1help`, { type: "iLEGEND SQUAD" });
  
  });
 
@@ -65,7 +65,7 @@ client.on("ready", () => {
     language: "english",
     slash: {
         slash: 'both',
-        prefix: '!'
+        prefix: '1'
     },
     defaultCooldown: "3s"
   });
